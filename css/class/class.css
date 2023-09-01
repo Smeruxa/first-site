@@ -1,0 +1,60 @@
+.square {
+    position: absolute;
+    border: 2px solid black;
+    background-color: transparent;
+}
+
+._over_square {
+    border-radius: 50%;
+    position: absolute;
+}
+
+._over_symbols {
+    position: absolute;
+}
+
+.bubble {
+    position: absolute;
+    width: 70px; /* Размер пузыря */
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.5); /* Прозрачность */
+    border-radius: 50%;
+    border: 2px solid gray; /* Серые края */
+}
+
+.radial-elements:hover {
+    transform: scale(0.97);
+    -moz-box-shadow:0 0 10px #317777; 
+    -webkit-box-shadow:0 0 10px #317777; 
+    box-shadow:0 0 10px #317777;
+}
+
+.radial-elements {
+    display: block;
+    background-color: #9eaede;
+    border-style: solid;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    color: #363636;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    user-select: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 60px;
+    animation: _unhide 1s ease-in;
+    position: absolute;
+}
+
+.circles_header {
+    background-color: #091e2a;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    opacity: 0.5;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
