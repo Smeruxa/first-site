@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("../css/class/class.css");
+@import url("../css/id/id.css");
+@import url("../css/fonts.css");
+@import url("../css/animations.css");
+
+html { overflow-x: hidden; }
+
+* {
+    margin: 0;
+    padding: 0;
+}
